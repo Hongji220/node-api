@@ -1,7 +1,8 @@
+import 'dotenv/config'
 import express from 'express'
 
 const app = express()
 
 app.get('/', (req, res) => res.status(200).send('Hello'))
 
-app.listen(9001)
+app.listen(process.env.PORT || 9001)
