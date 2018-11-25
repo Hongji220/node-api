@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hongji220/node-api/issues"
   },
-  "homepage": "https://github.com/Hongji220/node-api#readme"
+  "homepage": "https://github.com/Hongji220/node-api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
